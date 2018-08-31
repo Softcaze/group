@@ -248,23 +248,26 @@ input[type="button"].button-line:hover {
   border-radius: 50px;
   border: 1px solid #ffffff;
 }
-.journal .body-group .left-content .fil-actu .u {
+.journal .body-group .left-content .fil-actu .div-content {
+  margin: 10px;
+}
+.journal .body-group .left-content .fil-actu .div-content .info-actu {
   font-size: 14px;
 }
-.journal .body-group .left-content .fil-actu .u .name {
+.journal .body-group .left-content .fil-actu .div-content .info-actu .name {
   color: #d91e18;
   font-weight: 600px;
 }
-.journal .body-group .left-content .fil-actu .u .name:hover {
+.journal .body-group .left-content .fil-actu .div-content .info-actu .name:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.journal .body-group .left-content .fil-actu .date-actu {
+.journal .body-group .left-content .fil-actu .div-content .info-actu .event-name {
+  font-weight: 600;
+}
+.journal .body-group .left-content .fil-actu .div-content .date-actu {
   font-size: 10px;
   color: #90949c;
-}
-.journal .body-group .left-content .fil-actu .div-content {
-  margin: 10px;
 }
 .journal .body-group .left-content .fil-actu .div-content .vignette-group {
   width: 250px;
@@ -512,10 +515,11 @@ input[type="button"].button-line:hover {
   width: 100%;
   text-align: center;
   margin: 20 0;
+  margin-bottom: 15px;
 }
 .journal .popin .mdl-content .mdl-body .title span {
   color: #ffa6a6;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 .journal .popin .mdl-content .mdl-body .invite-content {
@@ -937,7 +941,7 @@ input[type="button"].button-line:hover {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  margin-top: -40px;
+  margin-top: -42px;
   z-index: 1;
   position: relative;
   margin-left: 36px;
@@ -2265,4 +2269,5 @@ input[type="button"].button-line:hover {
 }
 .login .main .create-compte-content .footer input[type="button"] {
   width: 300px;
+  height: 45px;
 }

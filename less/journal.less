@@ -192,28 +192,31 @@
                     border-radius: 50px;
                     border: 1px solid @white;
                 }
-
-                .u {
-                    font-size: 14px;
-
-                    .name {
-                        color: @dark-red;
-                        font-weight: 600px;
-
-                        &:hover{
-                            cursor: pointer;
-                            text-decoration: underline;
-                        }
-                    }
-                }
-
-                .date-actu {
-                    font-size: 10px;
-                    color: @light-grey;
-                }
-
                 .div-content {
                     margin: 10px;
+
+                    .info-actu {
+                        font-size: 14px;
+    
+                        .name {
+                            color: @dark-red;
+                            font-weight: 600px;
+    
+                            &:hover{
+                                cursor: pointer;
+                                text-decoration: underline;
+                            }
+                        }
+    
+                        .event-name {
+                            font-weight: 600;
+                        }
+                    }
+    
+                    .date-actu {
+                        font-size: 10px;
+                        color: @light-grey;
+                    }
 
                     .vignette-group {
                         width: 250px;
@@ -514,10 +517,11 @@
                     width: 100%;
                     text-align: center;
                     margin: 20 0;
+                    margin-bottom: 15px;
 
                     span {
                         color: @light-red;
-                        font-size: 14px;
+                        font-size: 16px;
                         font-weight: 600;
                     }
                 }
